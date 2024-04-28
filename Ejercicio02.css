@@ -1,0 +1,37 @@
+#Contenedor {
+  border: 2px solid #000;
+  position: relative;
+  top: 5px;
+  left: 400px;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.A {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Item1 {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  color: white;
+}
+
+#Item2 {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  color: white;
+}
+
+#Item3 {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  color: white;
+}
